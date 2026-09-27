@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-clay",
+  "private": true,
+  "description": "A scientific field journal on warm parchment: quiet ivory surfaces, editorial serif headlines and a single clay accent that appears only when you must act.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
