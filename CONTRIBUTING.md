@@ -25,11 +25,11 @@ House rules:
 - Obsidian's CSS variables first, plain selectors after; no `!important`, no `:has()`.
 - Colors come from the palette in section 1 of `theme.css`; nothing else holds a color
   literal.
-- Ivory, oat and clay, period: clay for fills, links and the highlighter, oat for tags and
-  the open file, manilla for pull quotes; no cool greys, no blues. Elevation comes from
-  surface tone and 1px borders, never shadows. The only embedded font is Source Serif
-  Regular (the title and the three largest headings): `fonts/*.woff2` are written into
-  `theme.css` by `npm run fonts`.
+- Ivory, oat and clay, period: clay for fills, links and the highlighter, oat for tags
+  and the open file, manilla for pull quotes; no cool greys, no blues. Elevation comes
+  from surface tone and 1px borders, never shadows. The only embedded font is Clay Serif
+  Regular, a renamed subset of Source Serif Pro Regular (the title and the three largest
+  headings): `fonts/*.woff2` are written into `theme.css` by `npm run fonts`.
 - The release ships `dist/theme.css` from `npm run build`: the same file without
   comments. The build fails on any lint problem.
 

@@ -13,7 +13,7 @@ when you must act.
 
 - **Ivory, oat and clay, period.** Warm paper tones replace the usual cool greys; nothing
   blue, nothing purple. Surfaces elevate by tone — ivory, oat, manilla — never by shadow.
-- **A serif for the editorial voice.** Source Serif at weight 400 for the title, the three
+- **A serif for the editorial voice.** Clay Serif at weight 400 for the title, the three
   largest headings and pull quotes; the platform's own sans for the text and the chrome.
 - **One clay accent, only when you act.** Clay fills the main button, a checked task and a
   toggle, and, deepened, carries links and the caret. Oat washes tags and the open file.
@@ -44,10 +44,11 @@ Settings → Appearance → Themes.
 
 ## Font
 
-Source Serif Regular (© 2014–2018 Adobe Systems Incorporated, Reserved Font Name "Source")
-is embedded in `theme.css` as base64 WOFF2 under the SIL Open Font License 1.1 — see
-[`fonts/OFL.txt`](fonts/OFL.txt). One weight, Latin and Cyrillic, for the title, the three
-largest headings and pull quotes only.
+Clay Serif is embedded in `theme.css` as base64 WOFF2 under the SIL Open Font License
+1.1 — see [`fonts/OFL.txt`](fonts/OFL.txt). It is a Latin and Cyrillic subset of Source
+Serif Pro (© 2014–2018 Adobe Systems Incorporated), renamed because a modified copy may
+not use the original's Reserved Font Name. One weight, for the title, the three largest
+headings and pull quotes only.
 
 ## License
 
@@ -57,7 +58,7 @@ MIT — see [LICENSE](LICENSE).
 
 **По-русски.** Тема из коллекции Borozdov. Два лика: светлый «Слоновая кость» — научный
 полевой журнал на тёплом пергаменте, и тёмный «Печь» — тот же журнал в отсветах обжиговой
-печи. Тихие поверхности цвета слоновой кости, редакционные заголовки с засечками (Source
+печи. Тихие поверхности цвета слоновой кости, редакционные заголовки с засечками (Clay
 Serif) и один глиняный акцент, который появляется только там, где нужно действовать.
 Устанавливается из каталога: Настройки → Оформление → Темы → Настроить → Borozdov Clay →
 Установить и применить.
